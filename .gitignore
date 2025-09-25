@@ -1,0 +1,93 @@
+# Rust/Cargo
+/target/
+**/*.rs.bk
+*.pdb
+Cargo.lock
+
+# Python Virtual Environment
+venv/
+env/
+.venv/
+.env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyTorch/ML Models
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.pickle
+models/
+checkpoints/
+wandb/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Docker
+.dockerignore
+Dockerfile.prod
+
+# Kubernetes secrets
+*.key
+*.crt
+secrets/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+
+# Build artifacts
+*.deb
+*.rpm
+*.tar.gz
+*.zip
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# GPU/CUDA cache
+.nv_cache/
+.triton_cache/
+
+# Profiling
+*.prof
+perf.data*
+
+# Coverage
+tarpaulin-report.html
+cobertura.xml
+lcov.info
